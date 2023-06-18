@@ -1,0 +1,38 @@
+
+p {
+    display: inline;
+    color: #555;
+}
+
+input {
+    height: 30px;
+    width: auto;
+    width: 30px;
+    display: inline;
+    text-align: center;
+    background-color: #faf9f9;
+    border: 1px solid #141212;
+    border-radius: 3px;
+
+}
+
+input::placeholder {
+    color: rgb(46, 62, 77);
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: work sans;
+}
+
+button {
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid rgb(61, 67, 89);
+    color: #555;
+}
+
+#alert {
+    display: block;
+}
