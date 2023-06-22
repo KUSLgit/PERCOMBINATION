@@ -39,7 +39,12 @@ function npr(){
         alertt.innerHTML = "Only put positive numbers, kyuki negative numbers ke factorial nhi hote !!"
     }
     else {
-        alertt.innerHTML = n/nr;   // n!/(n-r)!
+        alertt.innerHTML =         `
+        ${nV}!/(${nV}-${rV})!
+        =
+        ${n/nr}
+        `   
+   // n!/(n-r)!
     }
 }
 
