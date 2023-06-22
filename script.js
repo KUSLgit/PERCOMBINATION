@@ -73,8 +73,11 @@ function ncr(){
         `   
    // n!/(r!(n-r))!
     }
-}
+    document.getElementsByTagName("button").style.boxShadow = "none";
 
+    document.getElementsByTagName("button").style.transform = "translateY(3px)";
+}
+    
 function reset() {
     nValue.value = "";
     rValue.value = "";

@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <p>Solve for :</p><br><br>
+    <div class="container">
+    <p></p><br><br>
 
     <input type="number" name="placeholde for n" id="nValue" placeholder="n">
     <input type="number" name="placeholde for r" id="rValue" placeholder="r"><br><br>
@@ -20,11 +20,11 @@
     <button id="btn1" onclick="npr()"><sup>n</sup>P<sub>r</sub></button>
     <button id="btn2" onclick="ncr()"><sup>n</sup>C<sub>r</sub></button>
 
-    <p id="alert"></p>
     <p id="test"></p>
-    
-    <button type="reset" onclick="reset()">reset</button>
-
+    <br><br>
+    <button type="reset" class="reset" onclick="reset()">reset</button>
+    <p id="alert"></p>
+    </div>
     <script src="script.js"></script>
     <!-- <script src="test.js"></script> -->
 </body>

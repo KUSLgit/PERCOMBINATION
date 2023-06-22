@@ -1,7 +1,7 @@
 
 p {
     display: inline;
-    color: #555;
+    color: #252010;
 }
 
 input {
@@ -10,14 +10,19 @@ input {
     width: 30px;
     display: inline;
     text-align: center;
-    background-color: #faf9f9;
+    background-color: #de8e0d;
     border: 1px solid #141212;
+    /* border: none; */
     border-radius: 3px;
-
+    
 }
 
+
 input::placeholder {
-    color: rgb(46, 62, 77);
+    color: #0a0a0a;
+    font-weight: 700;
+    font-size: medium;
+    
 }
 
 body {
@@ -31,8 +36,23 @@ button {
     padding: 5px;
     border: 1px solid rgb(61, 67, 89);
     color: #555;
+    background-color: #de8e0d;
+    border: 1px solid #141212;
+    color: #0a0a0a;
+
+    box-shadow: 0px 3px 0px 0px #fa5605;
 }
+
 
 #alert {
     display: block;
+}
+
+.container {
+    height: 200px;
+    width: 100%;
+    /* background: linear-gradient(45deg,#0ea3ee,#052637); */
+    background: linear-gradient(45deg,#ed8b56,#ef4d08);
+    justify-content: center;
+    padding-left: 20%;
 }
