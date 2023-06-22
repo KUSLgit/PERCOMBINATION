@@ -60,7 +60,13 @@ function ncr(){
         alertt.innerHTML = "Only put positive numbers, kyuki negative numbers ke factorial nhi hote !!"
     }
     else {
-        alertt.innerHTML = n/(r*nr);   // n!/(r!(n-r))!
+        alertt.innerHTML =
+        `
+        ${nV}!/(${rV}!*(${nV}-${rV})!)
+        =
+        ${n/(r*nr)}
+        `   
+   // n!/(r!(n-r))!
     }
 }
 
